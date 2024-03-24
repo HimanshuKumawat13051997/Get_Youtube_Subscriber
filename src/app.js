@@ -14,13 +14,14 @@ app.get("/subscribers", async (req, res) => {
 
     // The `res.status(200)` sets the HTTP status code to 200, indicating a successful request.
     // The `.json()` method sends a JSON response to the client, with the `subs` array as the body.
-    res.status(200).json(subs);
+
     res.status(200).json(subs);
   } catch (error) {
     // If an error occurs during the request, an HTTP status code of 400 is returned with an error message.
     res.status(400).json({
       error: "You have Done a Bad Request Check the URL again",
     });
+    return;
   }
 });
 
@@ -39,6 +40,7 @@ app.get("/subscribers/names", async (req, res) => {
     res.status(400).json({
       error: "You have Done a Bad Request Check the URL again",
     });
+    return;
   }
 });
 
@@ -56,6 +58,7 @@ app.get("/subscribers/:id", async (req, res) => {
     res.status(400).json({
       message: error.message,
     });
+    return;
   }
 });
 
