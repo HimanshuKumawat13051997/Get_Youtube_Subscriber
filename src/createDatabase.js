@@ -1,13 +1,13 @@
-require("dotenv").config();
 const mongoose = require("mongoose");
 const subscriberModel = require("./models/subscribers");
 const data = require("./data");
+require("dotenv").config();
 
 // Connect to DATABASE
-// const DATABASE_URL =
-//   process.env.MONGODB_URI || "mongodb://localhost/subscribers";
+//****************************** */
+//comment down process.env.MONGODB_URI to connect to localhost and if want to connect to  Atlas DB then un-comment it and add .env file.
 const DATABASE_URL =
-  "mongodb+srv://dudehimanshu97:R88WbSxOwp5759en@youtubesubs.nqfjpvm.mongodb.net/?retryWrites=true&w=majority&appName=YoutubeSubs";
+  process.env.MONGODB_URI || "mongodb://localhost/subscribers";
 
 mongoose.connect(DATABASE_URL, {
   useNewUrlParser: true,
