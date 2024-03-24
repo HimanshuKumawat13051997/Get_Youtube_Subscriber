@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
-    "dev": "nodemon ./src/index.js"
+    "dev": "nodemon ./src/index.js",
+"start": "node ./src/index.js" 
   },
   "author": "",
   "license": "ISC",
