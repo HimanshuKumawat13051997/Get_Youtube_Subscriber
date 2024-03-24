@@ -5,11 +5,14 @@ const mongoose = require("mongoose");
 const port = process.env.PORT;
 
 // Parse JSON bodies (as sent by API clients)
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 // Connect to DATABASE
+
 const DATABASE_URL =
   process.env.MONGODB_URI || "mongodb://localhost/subscribers";
+
 mongoose.connect(DATABASE_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
