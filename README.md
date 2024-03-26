@@ -12,7 +12,7 @@ This API is designed to manage subscribers and their information. It provides en
 To set up and run the API locally, follow these steps:
 **Clone this repository to your local machine.**
 ```bash
-git clone https://github.com/HimanshuKumawat13051997/Subscribers-Mongo-Node-BoilerPlate-main
+git clone https://github.com/HimanshuKumawat13051997/Get_Youtube_Subscriber
 ```
 **Install dependencies using npm.**
 ```bash
@@ -79,7 +79,7 @@ Subscriber Model
 
 **Deployment**
 
-<a href="https://subscribers-mongo-node-boilerplate-main-ush0.onrender.com/">CLICK HERE</a>.</p>
+<a href="https://get-youtube-subscriber-4t0t.onrender.com/">CLICK HERE</a>.</p>
 
 ****NOTE**
 <p> This capstone project is associated with <a href="https://www.almabetter.com">Almabetter</a>.</p>
