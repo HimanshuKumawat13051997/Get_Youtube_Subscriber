@@ -63,10 +63,12 @@ Content: { "message": "Error message" }
 
 **Models**
 Subscriber Model
-Fields:
-name: String (required)
-subscribedChannel: String (required)
-subscribedDate: Date (default: current date)
+### Field               -->       Type
+- _id                 -->       ObjectID
+- name                -->       String
+- subscribedChannel   -->       String
+- subscribedDate      -->       Date
+- __v                 -->       Int32
 
 **Deployment**
 https://subscribers-mongo-node-boilerplate-main-ush0.onrender.com/
