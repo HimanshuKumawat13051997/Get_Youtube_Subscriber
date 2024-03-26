@@ -4,18 +4,27 @@ This API is designed to manage subscribers and their information. It provides en
 **Setup**
 To set up and run the API locally, follow these steps:
 **Clone this repository to your local machine.**
-git clone https://github.com/your-username/your-repo.git
-
+```bash
+git clone https://github.com/HimanshuKumawat13051997/Subscribers-Mongo-Node-BoilerPlate-main
+```
 **Install dependencies using npm.**
 ```bash
 npm install
 ```
 **Set up your MongoDB connection by creating a .env file in the root directory of the project and adding your MongoDB URI.**
+```bash
 MONGODB_URI=mongodb://localhost/subscribers
-If you are using MongoDB Atlas, replace mongodb://localhost/subscribers with your Atlas URI.
+```
+If you are using MongoDB Atlas, replace 
+```bash
+mongodb://localhost/subscribers with your Atlas URI.
+```
+
 
 **Start the server.**
+```bash
 npm start
+```
 This will start the server at http://localhost:3000 (or another port if specified in your .env file).
 
 **Endpoints**
