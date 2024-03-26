@@ -1,6 +1,12 @@
 **API for Getting Youtue Subscriber**
 This API is designed to manage subscribers and their information. It provides endpoints to retrieve subscriber data, including all subscribers' details, only names and subscribed channels, and details of a subscriber by their ID. Additionally, it includes functionalities to create a MongoDB database with sample subscriber data.
 
+**Used Technologies**
+-ExpressJS
+-MongoDB
+-NodeJS
+-BootStrap for basic structure of static webpage
+
 **Setup**
 To set up and run the API locally, follow these steps:
 **Clone this repository to your local machine.**
@@ -30,36 +36,36 @@ This will start the server at http://localhost:3000 (or another port if specifie
 **Endpoints**
 **Get All Subscribers**
 **URL: /subscribers**
-Method: GET
-Description: Retrieves details of all subscribers.
-Success Response:
-Code: 200
-Content: Array of subscriber objects containing all information.
-Error Response:
-Code: 400
-Content: { "error": "You have Done a Bad Request. Check the URL again" }
+-Method: GET
+-Description: Retrieves details of all subscribers.
+-Success Response:
+-Code: 200
+-Content: Array of subscriber objects containing all information.
+-Error Response:
+-Code: 400
+-Content: { "error": "You have Done a Bad Request. Check the URL again" }
 
 **Get Subscriber Names and Channels
 URL: /subscribers/names**
-Method: GET
-Description: Retrieves details of all subscribers containing only their names and subscribed channels.
-Success Response:
-Code: 200
-Content: Array of subscriber objects containing names and subscribed channels.
-Error Response:
-Code: 400
-Content: { "error": "You have Done a Bad Request. Check the URL again" }
+-Method: GET
+-Description: Retrieves details of all subscribers containing only their names and subscribed channels.
+-Success Response:
+-Code: 200
+-Content: Array of subscriber objects containing names and subscribed channels.
+-Error Response:
+-Code: 400
+-Content: { "error": "You have Done a Bad Request. Check the URL again" }
 
 **Get Subscriber by ID
 URL: /subscribers/:id**
-Method: GET
-Description: Retrieves details of a subscriber with the specified ID.
-Success Response:
-Code: 200
-Content: Subscriber object matching the provided ID.
-Error Response:
-Code: 400
-Content: { "message": "Error message" }
+-Method: GET
+-Description: Retrieves details of a subscriber with the specified ID.
+-Success Response:
+-Code: 200
+-Content: Subscriber object matching the provided ID.
+-Error Response:
+-Code: 400
+-Content: { "message": "Error message" }
 
 **Models**
 Subscriber Model
@@ -71,10 +77,11 @@ Subscriber Model
 - __v                 -->       Int32
 
 **Deployment**
-https://subscribers-mongo-node-boilerplate-main-ush0.onrender.com/
+
+<a href="https://subscribers-mongo-node-boilerplate-main-ush0.onrender.com/">CLICK HERE</a>.</p>
 
 ****NOTE**
-The capstone project is associated with AlmaBetter**
+<p> This capstone project is associated with <a href="https://www.almabetter.com">Almabetter</a>.</p>
 
 Ensure that your MongoDB connection URI is correctly configured in the .env file.
 Sample data is provided in data.js and can be modified as needed.
