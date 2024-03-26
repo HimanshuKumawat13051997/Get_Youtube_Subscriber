@@ -2,6 +2,7 @@
 This API is designed to manage subscribers and their information. It provides endpoints to retrieve subscriber data, including all subscribers' details, only names and subscribed channels, and details of a subscriber by their ID. Additionally, it includes functionalities to create a MongoDB database with sample subscriber data.
 
 **Used Technologies**
+
 -ExpressJS
 -MongoDB
 -NodeJS
