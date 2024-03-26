@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
+    "test": "mocha './src/api.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
     "dev": "nodemon ./src/index.js",
 "start": "node ./src/index.js" 
   },
