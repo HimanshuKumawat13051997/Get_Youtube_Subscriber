@@ -7,8 +7,9 @@ To set up and run the API locally, follow these steps:
 git clone https://github.com/your-username/your-repo.git
 
 **Install dependencies using npm.**
+```bash
 npm install
-
+```
 **Set up your MongoDB connection by creating a .env file in the root directory of the project and adding your MongoDB URI.**
 MONGODB_URI=mongodb://localhost/subscribers
 If you are using MongoDB Atlas, replace mongodb://localhost/subscribers with your Atlas URI.
